@@ -20,6 +20,8 @@
     background-color: transparent;
     border: 3px solid orange;
     border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 li {
@@ -30,7 +32,7 @@ li {
     color: white;
     background-color: orange;
     border-radius: 5px;
-    padding: 5px;
+    padding: 15px;
 }
 
 .hero-div {
@@ -40,7 +42,7 @@ li {
 }
 
 .nav-top-right{
-    position: relative;
+    float: right;
     display: inline-block;
     width: 20%;
     top: 0px;
@@ -62,7 +64,7 @@ li {
 }
 
 .nav-bottom-right {
-    position: relative;
+    float: right;
     bottom: 0px;
     right: 0px;
 }
@@ -84,4 +86,40 @@ li {
 /* righe della sezione 4 */
 .row {
     height: 25%;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.centered-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+}
+
+/* styling card sezione 4 */
+.card {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.small-img {
+    width: 10%;
+    height: audo;
+}
+
+#cube {
+    display: block;
+    width: 250px;
+    height: 50%;
+}
+
+#gethubfree {
+    display: inline-block;
+    vertical-align: middle;
 }
