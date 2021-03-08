@@ -8,59 +8,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- intestazione e navbar -->
-    <header>
-        <nav class="container">
-            <!-- navbar top left -->
+
+    <nav>
+        <!-- prima riga nav-->
+        <div class="container">
             <div class="nav-top-left">
-                <!-- menù dei linguaggi -->
-                <div>
-                    🌍English arrowDown 
-                </div>
-                <!-- Contact us -->                
-                <div>
-                    Contact us
-                </div>
+                🌍English arrowDown | Contact Us
             </div>
-    
-            <!-- navbar top right -->
             <div class="nav-top-right">
                 <!-- bottone login -->
-                <div ìd="login" class="">
-                    🔍
-                    <button id="login">
-                       Log in
-                    </button>
-                </div>
+                🔍<button id="login"> Log in</button>
                 <!-- bottone gethubspotfree -->
-                <button id="gethubfree" class="orange-button">
-                    GetHubspotFree
-                </button>
-                <div>
-    
+                <button id="gethubfree" class="orange-button">GetHubspotFree</button>
+            </div>
+        </div>
+
+        <!-- seconda riga nav -->
+        <div class="container clearfix">
+            <div>
+            <!-- logo -->
+            <img src="img/logo.svg" alt="logo Hubspot" >        
+            </div>
+
+            <div>
+                <div class="nav-bottom-right">
+                    <!-- ul -->
+                    <ul>
+                        <li class="ul-inline">Pricing arrowDown</li>
+                        <li class="ul-inline">Software</li>
+                        <li class="ul-inline">Resources arrowDown</li>
+                        <li class="ul-inline">Partners arrowDown</li>
+                        <li class="ul-inline">About arrowDown</li>
+                    </ul>
                 </div>
             </div>
-    
-            <!-- navbar bottom left -->
-            <div>
-                <!-- logo -->
-                <img src="img/logo.svg" alt="logo Hubspot" >
-            </div>
-    
-            <!-- navbar bottom right -->
-            <div>
-                <!-- ul -->
-                <ul>
-                    <li class="ul-nav">Software</li>
-                    <li class="ul-nav">Pricing</li>
-                    <li class="ul-nav">Resources</li>
-                    <li class="ul-nav">Partners</li>
-                    <li class="ul-nav">About</li>
-                </ul>
-            </div>
-    
-        </nav>
-    </header>
+        </div>
+    </nav>
     
     <!-- hero div  -->
     <div class=" hero-div">
@@ -76,8 +59,8 @@
            </div>
         </div>
 
-            <!-- div vuoto di spaziatura -->
-    <div class="empty">
+            <!-- div vuoto di spaziatura
+    <div class="empty"> -->
     
     </div>
     </div>
