@@ -27,6 +27,10 @@ li {
 
 }
 
+.hero-div {
+    background-image: url(/img/jumbotron.png);
+}
+
 .nav-top-right{
     float: right;
     display: inline-block;
@@ -37,4 +41,13 @@ li {
     float: left;
     display: inline-block;
     width: 20%;
+}
+
+p{
+    width: 300px;
+}
+
+.empty {
+    background-color:rgb(175,235,228);
+    border:  3px solid black;
 }
