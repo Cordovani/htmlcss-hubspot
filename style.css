@@ -15,6 +15,10 @@
     background-color: rgb(244, 249, 253);
 }
 
+main {
+    background-color: rgb(236, 247, 249)
+}
+
 #login{
     color:orange;
     background-color: transparent;
@@ -24,15 +28,31 @@
     vertical-align: middle;
 }
 
-li {
+.ul-inline {
     display: inline-block;
+}
+
+li{
+    list-style-type: none;
+}
+
+h3 {
+    margin: 5px;
+}
+
+p {
+    margin-bottom: 10%;
+}
+
+hr {
+    margin: 7.5% 2.5%;
 }
 
 .orange-button{
     color: white;
     background-color: orange;
     border-radius: 5px;
-    padding: 15px;
+    padding: 10px;
 }
 
 .hero-div {
@@ -82,7 +102,9 @@ li {
 }
 
 .col-3 {
-    width: 33%;
+    width: 28%;
+    margin: 2.5% 2.5%;
+    padding: 10px;
 }
 
 .col-2 {
@@ -92,6 +114,7 @@ li {
 /* righe della sezione 4 */
 .row {
     height: 25%;
+    margin: auto;
 }
 
 .centered-text {
@@ -113,11 +136,13 @@ li {
     background-color: white;
     border-radius: 5px;
     display: inline-block;
+    text-align: center;
 }
 
 .small-img {
     width: 20%;
     height: auto;
+    /* margin-left: 40%; */
 }
 
 #cube {
@@ -130,3 +155,4 @@ li {
     display: inline-block;
     vertical-align: middle;
 }
+
