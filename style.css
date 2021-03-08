@@ -37,8 +37,12 @@ li {
 
 .hero-div {
     background-image: url(img/jumbotron.png);
-    object-fit:contain;
+    background-position: right;
+    background-color: rgb(255,245,239);
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 350px;
+
 }
 
 .nav-top-right{
@@ -73,6 +77,8 @@ li {
     background-color:rgb(175,235,228);
     border:  3px solid black;
     height: 35px;
+    position: relative;
+    bottom: 0px;
 }
 
 .col-3 {
@@ -109,8 +115,8 @@ li {
 }
 
 .small-img {
-    width: 10%;
-    height: audo;
+    width: 80%;
+    height: auto;
 }
 
 #cube {
