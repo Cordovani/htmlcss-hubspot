@@ -112,10 +112,11 @@ li {
 .card {
     background-color: white;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .small-img {
-    width: 80%;
+    width: 20%;
     height: auto;
 }
 
