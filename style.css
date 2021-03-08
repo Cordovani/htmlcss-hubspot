@@ -35,23 +35,37 @@ li {
 
 .hero-div {
     background-image: url(img/jumbotron.png);
-    object-fit: contain;
-    background-position: bottom right;
+    object-fit:contain;
     height: 350px;
 }
 
 .nav-top-right{
-    float: right;
+    position: relative;
     display: inline-block;
     width: 20%;
+    top: 0px;
+    right: 0px;
 }
 
 .nav-top-left {
-    float: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
     display: inline-block;
     width: 20%;
 }
 
+.nav-bottom-left{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
+.nav-bottom-right {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
 
 .empty {
     background-color:rgb(175,235,228);
@@ -67,3 +81,7 @@ li {
     width: 50%;
 }
 
+/* righe della sezione 4 */
+.row {
+    height: 25%;
+}
