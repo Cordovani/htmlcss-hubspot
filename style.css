@@ -12,23 +12,32 @@
 }
 
 .nav {
-    background-color: rgb(255, 245, 239);
+    background-color: rgb(244, 249, 253);
 }
 
 #login{
-    
+    color:orange;
+    background-color: transparent;
+    border: 3px solid orange;
+    border-radius: 5px;
 }
 
 li {
     display: inline-block;
 }
 
-.button-style{
-
+.orange-button{
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .hero-div {
-    background-image: url(/img/jumbotron.png);
+    background-image: url(img/jumbotron.png);
+    object-fit: contain;
+    background-position: bottom right;
+    height: 350px;
 }
 
 .nav-top-right{
@@ -43,11 +52,18 @@ li {
     width: 20%;
 }
 
-p{
-    width: 300px;
-}
 
 .empty {
     background-color:rgb(175,235,228);
     border:  3px solid black;
+    height: 35px;
 }
+
+.col-3 {
+    width: 33%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
