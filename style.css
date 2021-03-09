@@ -21,6 +21,7 @@
 }
 .nav {
     background-color: rgb(244, 249, 253);
+    line-height: 160px;
 }
 
 main {
@@ -63,12 +64,18 @@ p {
     /* min-height: 200px; */
 }
 
+a {
+    text-decoration: none;
+}
+
 hr {
     margin: 75px 10px 50px;
 }
 
+/* linea di separazione al posto di hr */
 #separator {
-    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid;
 }
 
 .orange-button{
@@ -87,36 +94,36 @@ hr {
     background-size: contain;
     background-repeat: no-repeat;
     height: 420px;
-
+    position: relative;
 }
 
 .nav-top-right{
     float: right;
     /* display: inline-block; */
-    width: 25%;
+    width: 30%;
     top: 0px;
     right: 0px;
 }
 
 .nav-top-left {
     float: left;
-    top: 0px;
+    /* top: 0px;
     left: 0px;
-    /* display: inline-block; */
-    width: 20%;
+    display: inline-block; */
+    width: 30%;
 }
 
 .nav-bottom-left{
     float: left;
     /* display: inline-block; */
-    bottom: 0px;
-    left: 0px;
+    /* bottom: 0px;
+    left: 0px; */
 }
 
 .nav-bottom-right {
     float: right;
-    bottom: 0px;
-    right: 0px;
+    /* bottom: 0px;
+    right: 0px; */
 }
 
 #firstline {
@@ -126,9 +133,12 @@ hr {
 .empty {
     background-color:rgb(175,235,228);
     border:  3px solid black;
-    height: 60px;
-    position: relative;
-    bottom: -85px;
+    /* height: 35px; */
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 55px;
+    /* bottom: -85px; */
 }
 
 .col-3 {
@@ -168,9 +178,10 @@ hr {
 .card {
     background-color: white;
     border-radius: 5px;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     /* max-width: 250px; */
+    float: left;
 }
 
 .small-img {
@@ -214,7 +225,7 @@ hr {
 
    
 ul {
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     line-height: 1;
     text-align:justify;}
 }
