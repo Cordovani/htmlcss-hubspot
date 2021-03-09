@@ -10,6 +10,7 @@
 .container {
     width: 1024px;
     margin: auto;
+    padding: 15px;
 }
 
 /* clearfix */
@@ -29,13 +30,13 @@ main {
 #login{
     color:orange;
     background-color: rgb(250,252,254);
-    border: 3px solid orange;
+    border: 1px solid orange;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .ul-inline {
@@ -55,15 +56,16 @@ h3 {
     margin-bottom: 10%;
 } */
 
-hr {
+/* hr {
     margin: 7.5% 2.5%;
-}
+} */
 
 .orange-button{
     color: white;
     background-color: orange;
     border-radius: 5px;
     padding: 10px;
+    border: none;
 }
 
 .hero-div {
@@ -78,7 +80,7 @@ hr {
 
 .nav-top-right{
     float: right;
-    display: inline-block;
+    /* display: inline-block; */
     width: 25%;
     top: 0px;
     right: 0px;
@@ -88,13 +90,13 @@ hr {
     float: left;
     top: 0px;
     left: 0px;
-    display: inline-block;
+    /* display: inline-block; */
     width: 20%;
 }
 
 .nav-bottom-left{
     float: left;
-    display: inline-block;
+    /* display: inline-block; */
     bottom: 0px;
     left: 0px;
 }
@@ -103,6 +105,10 @@ hr {
     float: right;
     bottom: 0px;
     right: 0px;
+}
+
+#firstline {
+    background-color: rgb(244,249,253);
 }
 
 .empty {
@@ -121,6 +127,7 @@ hr {
 
 .col-2 {
     width: 50%;
+    margin: 0 0;
 }
 
 /* righe della sezione 4 */
@@ -131,13 +138,14 @@ hr {
 
 .centered-text {
     text-align: center;
+    margin: 3% 10%;
 }
 
 .bold {
     font-weight: bold;
 }
 
-.centered-img {
+.centered-img {    
     margin-left: auto;
     margin-right: auto;
     width: 50%;    
@@ -158,6 +166,7 @@ hr {
 }
 
 #cube {
+    margin-top: 3%;
     display: block;
     width: 200px;
     height: 50%;
