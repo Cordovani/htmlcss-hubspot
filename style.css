@@ -24,7 +24,8 @@
 }
 
 main {
-    background-color: rgb(236, 247, 249)
+    background-color: rgb(236, 247, 249);
+    padding: 30px;
 }
 
 #login{
@@ -39,6 +40,10 @@ main {
     margin-left: 15px;
 }
 
+#gethubfree {
+    padding: 10px;
+}
+
 .ul-inline {
     display: inline-block;
 }
@@ -49,23 +54,30 @@ li{
 }
 
 h3 {
-    margin: 5px;
+    margin: 30px;
 }
 
 p {
     margin: 3% 0;
+    line-height: 1.5;
+    /* min-height: 200px; */
 }
 
-/* hr {
-    margin: 7.5% 2.5%;
-} */
+hr {
+    margin: 75px 10px 50px;
+}
+
+#separator {
+    margin: 0;
+}
 
 .orange-button{
     color: white;
     background-color: orange;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     border: none;
+    font-weight: bold;
 }
 
 .hero-div {
@@ -74,7 +86,7 @@ p {
     background-color: rgb(255,245,239);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 420px;
 
 }
 
@@ -114,15 +126,15 @@ p {
 .empty {
     background-color:rgb(175,235,228);
     border:  3px solid black;
-    height: 35px;
+    height: 60px;
     position: relative;
-    bottom: 0px;
+    bottom: -85px;
 }
 
 .col-3 {
     width: 28%;
     margin: 2.5% 2.5%;
-    padding: 10px;
+    padding: 30px;
 }
 
 .col-2 {
@@ -158,16 +170,18 @@ p {
     border-radius: 5px;
     display: inline-block;
     text-align: center;
+    /* max-width: 250px; */
 }
 
 .small-img {
-    width: 20%;
+    max-width: 20%;
+    min-height: 61px;
     height: auto;
     /* margin-left: 40%; */
 }
 
 #cube {
-    margin-top: 3%;
+    margin-top: 2% ;
     display: block;
     width: 200px;
     height: 50%;
@@ -178,3 +192,29 @@ p {
     vertical-align: middle;
 }
 
+#orizontal-card{
+    display: block;
+}
+
+#popular-feature {
+    text-align: left;
+}
+
+#orizontal-image {
+    width: 30%;
+}
+
+.check {
+   height: 15px;
+   width: 15px;
+   border-radius: 50%;
+   background-color: orange;
+   color: white; 
+}
+
+   
+ul {
+    margin-bottom: 25px;
+    line-height: 1;
+    text-align:justify;}
+}
